@@ -530,27 +530,6 @@ Not licensed under GPL/MIT (custom educational license).
 - Always include disclaimer
 - Don't represent as legal advice
 
----
-
-## 🤝 Contributing
-
-Contributions welcome!
-
-### How to Contribute:
-1. Report bugs (GitHub Issues)
-2. Suggest new situations/laws (Discussions)
-3. Improve keyword detection
-4. Translate to regional languages
-5. Enhance UI/UX
-
-**Before contributing:**
-- Review legal accuracy with qualified lawyer
-- Test with real users
-- Maintain ethical guidelines
-- Document changes
-
----
-
 ## ⚠️ Important Legal Disclaimer
 
 **LegalAssist is NOT a substitute for professional legal advice.**
@@ -564,16 +543,6 @@ This system:
 - Cannot guarantee legal outcomes
 
 **For serious legal matters, always consult a qualified lawyer.**
-
----
-
-## 👨‍💻 Developer Contact
-
-- **Email:** [Your Email]
-- **GitHub:** [Your GitHub]
-- **Twitter:** [Your Twitter]
-
----
 
 ## 📞 Emergency Resources
 
