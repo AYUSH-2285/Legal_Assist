@@ -1,0 +1,15 @@
+# LegalAssist - Requirements
+# Python 3.8+ required
+
+# Core GUI Framework
+PyQt5
+PyQt5-sip
+
+# Data Processing
+python-hindi
+
+# Utilities
+python-dotenv
+
+# Optional: For packaging
+pyinstaller

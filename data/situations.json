@@ -1,0 +1,241 @@
+{
+  "POLICE_WRONGFUL_DETENTION": {
+    "id": "PWD001",
+    "name": "Police Wrongful Detention / Unlawful Stop",
+    "description": "Police stopped or detained you without legal grounds, warrant, or reasonable suspicion",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "STOP_DETAIN",
+      "NO_OFFENSE"
+    ],
+    "optional_signals": [
+      "ILLEGAL_RESTRAINT",
+      "THREAT_INTIMIDATION",
+      "MOVEMENT_FREEDOM"
+    ],
+    "law_ids": [
+      "ART_19_1_D",
+      "ART_21",
+      "IPC_341",
+      "IPC_342",
+      "CRPC_41",
+      "CRPC_160"
+    ],
+    "severity": "high",
+    "scenario_examples": [
+      "Police stopped me without reason",
+      "Detained for just walking in public",
+      "Stopped and asked personal questions without suspicion"
+    ]
+  },
+  "POLICE_HARASSMENT_VERBAL": {
+    "id": "PHV001",
+    "name": "Police Verbal Harassment / Misconduct",
+    "description": "Police used abusive language, disrespectful behavior, or threats",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "HARASSMENT_VERBAL"
+    ],
+    "optional_signals": [
+      "THREAT_INTIMIDATION",
+      "CUSTODY_QUESTIONING"
+    ],
+    "law_ids": [
+      "ART_21",
+      "IPC_504",
+      "IPC_506",
+      "IPC_509"
+    ],
+    "severity": "medium",
+    "scenario_examples": [
+      "Police used bad language toward me",
+      "Officer was rude and disrespectful",
+      "Threatened during questioning"
+    ]
+  },
+  "POLICE_INVASION_PRIVACY": {
+    "id": "PIP001",
+    "name": "Police Privacy Violation / Illegal Search",
+    "description": "Police searched body or personal items without consent or legal authority",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "SEARCH_BODY"
+    ],
+    "optional_signals": [
+      "PRIVACY_VIOLATION",
+      "HARASSMENT_VERBAL",
+      "ILLEGAL_RESTRAINT"
+    ],
+    "law_ids": [
+      "ART_21",
+      "IPC_354",
+      "IPC_377",
+      "CRPC_100",
+      "CRPC_165"
+    ],
+    "severity": "high",
+    "scenario_examples": [
+      "Police searched me without asking",
+      "Body search without consent",
+      "Personal items taken without warrant"
+    ]
+  },
+  "UNLAWFUL_QUESTIONING_MINORS": {
+    "id": "UQM001",
+    "name": "Police Questioning of Minors / Vulnerable Persons",
+    "description": "Police questioned or detained you (or minor) without parent/guardian present",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "CUSTODY_QUESTIONING",
+      "PARENT_CONTACT"
+    ],
+    "optional_signals": [
+      "STOP_DETAIN",
+      "THREAT_INTIMIDATION"
+    ],
+    "law_ids": [
+      "ART_21",
+      "CRPC_41",
+      "CRPC_161",
+      "JJ_ACT",
+      "NHRC_GUIDELINES"
+    ],
+    "severity": "high",
+    "scenario_examples": [
+      "Police questioned my daughter without parents present",
+      "Police called parents after detaining a minor",
+      "Child kept at station without guardian"
+    ]
+  },
+  "FREEDOM_MOVEMENT": {
+    "id": "FM001",
+    "name": "Freedom of Movement Restriction",
+    "description": "Police or authority restricted your right to move freely in public spaces",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "STOP_DETAIN",
+      "MOVEMENT_FREEDOM"
+    ],
+    "optional_signals": [
+      "RELATIONSHIP_INQUIRY",
+      "NO_OFFENSE"
+    ],
+    "law_ids": [
+      "ART_19_1_D",
+      "ART_21",
+      "IPC_341",
+      "CRPC_41"
+    ],
+    "severity": "medium",
+    "scenario_examples": [
+      "Police stopped me while walking",
+      "Not allowed to move in public area",
+      "Asked why I was with someone"
+    ]
+  },
+  "HARASSMENT_COUPLE": {
+    "id": "HC001",
+    "name": "Harassment of Couple / Adults in Public",
+    "description": "Police harassed or questioned couple/adults for being together in public",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "RELATIONSHIP_INQUIRY",
+      "AGE_ADULT"
+    ],
+    "optional_signals": [
+      "HARASSMENT_VERBAL",
+      "MOVEMENT_FREEDOM",
+      "PARENT_CONTACT"
+    ],
+    "law_ids": [
+      "ART_19_1_D",
+      "ART_21",
+      "IPC_509",
+      "IPC_504"
+    ],
+    "severity": "medium",
+    "scenario_examples": [
+      "Police asked why we were together",
+      "Told adults they shouldn't be in public together",
+      "Questioned relationship of couple"
+    ]
+  },
+  "THREAT_INTIMIDATION_BY_POLICE": {
+    "id": "TIP001",
+    "name": "Threat / Intimidation by Police",
+    "description": "Police made threats of violence, arrest without cause, or intimidated you",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "THREAT_INTIMIDATION"
+    ],
+    "optional_signals": [
+      "WEAPON",
+      "HARASSMENT_VERBAL",
+      "STOP_DETAIN"
+    ],
+    "law_ids": [
+      "ART_21",
+      "IPC_504",
+      "IPC_506",
+      "IPC_508",
+      "CRPC_41"
+    ],
+    "severity": "high",
+    "scenario_examples": [
+      "Police threatened to arrest without reason",
+      "Threatened with violence",
+      "Intimidated during stop"
+    ]
+  },
+  "CYBER_FRAUD_SCAM": {
+    "id": "CFS001",
+    "name": "Cyber Fraud / Online Scam",
+    "description": "You received fraudulent communication, hacked account, or online scam",
+    "required_signals": [
+      "CYBER_THREAT"
+    ],
+    "optional_signals": [
+      "THREAT_INTIMIDATION",
+      "PRIVACY_VIOLATION"
+    ],
+    "law_ids": [
+      "IT_ACT_66",
+      "IT_ACT_66C",
+      "IT_ACT_66D",
+      "IT_ACT_67",
+      "IPC_420",
+      "IPC_504"
+    ],
+    "severity": "high",
+    "scenario_examples": [
+      "Got hacked, money stolen online",
+      "Fake profile impersonating me",
+      "Phishing scam on email"
+    ]
+  },
+  "WARRANT_CLARIFICATION": {
+    "id": "WC001",
+    "name": "Warrant / Legal Authority Verification",
+    "description": "Police claims to have warrant or legal authority, you want to verify",
+    "required_signals": [
+      "AUTHORITY_POLICE",
+      "WARRANT"
+    ],
+    "optional_signals": [
+      "CUSTODY_QUESTIONING",
+      "DOCUMENT_REQUEST"
+    ],
+    "law_ids": [
+      "CRPC_41",
+      "CRPC_50",
+      "CRPC_100",
+      "CRPC_165"
+    ],
+    "severity": "medium",
+    "scenario_examples": [
+      "Police says they have a warrant",
+      "Asking to search house",
+      "Requesting documents to verify authority"
+    ]
+  }
+}

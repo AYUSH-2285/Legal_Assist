@@ -1,0 +1,497 @@
+{
+  "AUTHORITY_POLICE": {
+    "keywords": [
+      "police",
+      "cop",
+      "inspector",
+      "constable",
+      "thana",
+      "khaki",
+      "pahuliche",
+      "police aaye",
+      "police ne",
+      "police ko",
+      "policeman",
+      "officer",
+      "law enforcement",
+      "arrest",
+      "detained",
+      "uniformed",
+      "badge",
+      "patrol",
+      "police station",
+      "fir"
+    ],
+    "hinglish": [
+      "police",
+      "cop",
+      "thanedar",
+      "sipahi",
+      "uniform wala",
+      "sarkari officer",
+      "law wala",
+      "authority"
+    ],
+    "hindi": [
+      "पुलिस",
+      "सिपाही",
+      "थानेदार",
+      "कांस्टेबल",
+      "अधिकारी"
+    ],
+    "confidence_weight": 1.0
+  },
+  "STOP_DETAIN": {
+    "keywords": [
+      "stopped",
+      "halted",
+      "detained",
+      "held",
+      "forced to stay",
+      "couldn't leave",
+      "trapped",
+      "blocked",
+      "prevented",
+      "roka"
+    ],
+    "hinglish": [
+      "roka",
+      "rukne ko kaha",
+      "rukwaya",
+      "jane nahi diya",
+      "rukwa diya",
+      "rok liya",
+      "hold kiya"
+    ],
+    "hindi": [
+      "रोका",
+      "रोके रखा",
+      "रुकवाया",
+      "पकड़ा"
+    ],
+    "confidence_weight": 0.95
+  },
+  "HARASSMENT_VERBAL": {
+    "keywords": [
+      "abuse",
+      "insult",
+      "rude",
+      "disrespect",
+      "humiliate",
+      "harass",
+      "curse",
+      "bad language",
+      "misbehavior",
+      "aggressive tone",
+      "threatened",
+      "scared",
+      "intimidate"
+    ],
+    "hinglish": [
+      "gaali",
+      "badmashi",
+      "taanebaazi",
+      "badtamizi",
+      "bura kehna",
+      "badhejabi",
+      "bhaundte the",
+      "galtibazi"
+    ],
+    "hindi": [
+      "गाली",
+      "बदमाशी",
+      "तानेबाजी",
+      "बदतमीजी",
+      "अपमान"
+    ],
+    "confidence_weight": 0.85
+  },
+  "ILLEGAL_RESTRAINT": {
+    "keywords": [
+      "wrongful restraint",
+      "unlawful detention",
+      "false arrest",
+      "without warrant",
+      "unjustly held",
+      "no reason given",
+      "no legal grounds",
+      "arbitrary"
+    ],
+    "hinglish": [
+      "wajah ke bina roka",
+      "gaira qanuni",
+      "bina warrant",
+      "bewajah bandh kiya",
+      "koi karan nahi"
+    ],
+    "hindi": [
+      "बिना वारंट",
+      "गैरकानूनी",
+      "बेवजह बंद",
+      "कारण नहीं दिया"
+    ],
+    "confidence_weight": 0.9
+  },
+  "PARENT_CONTACT": {
+    "keywords": [
+      "call parents",
+      "contact family",
+      "inform guardians",
+      "parent",
+      "mother",
+      "father",
+      "parents ko bulwana",
+      "parents ko phone"
+    ],
+    "hinglish": [
+      "parents ko call karo",
+      "papa ko phone",
+      "mummy ko bolo",
+      "ghar bulao",
+      "waalon ko inform karo"
+    ],
+    "hindi": [
+      "माता-पिता को फोन",
+      "घर को बुलाना",
+      "परिवार को सूचित करना"
+    ],
+    "confidence_weight": 0.88
+  },
+  "MOVEMENT_FREEDOM": {
+    "keywords": [
+      "walking",
+      "moving",
+      "going out",
+      "roaming",
+      "travel",
+      "public place",
+      "street",
+      "road",
+      "movement",
+      "mobility"
+    ],
+    "hinglish": [
+      "chalte firte",
+      "bahar nikle",
+      "ghumne jaana",
+      "chaalne ka hak",
+      "sadak par",
+      "public jagah"
+    ],
+    "hindi": [
+      "चलना-फिरना",
+      "आवाजाही",
+      "सार्वजनिक स्थान",
+      "सड़क"
+    ],
+    "confidence_weight": 0.8
+  },
+  "RELATIONSHIP_INQUIRY": {
+    "keywords": [
+      "relationship",
+      "together",
+      "couple",
+      "boyfriend",
+      "girlfriend",
+      "friend",
+      "relative",
+      "brother",
+      "sister",
+      "with someone",
+      "dating",
+      "partnership"
+    ],
+    "hinglish": [
+      "rishta",
+      "saath",
+      "couple",
+      "friend",
+      "bhai",
+      "bahan",
+      "kisi se saath"
+    ],
+    "hindi": [
+      "रिश्ता",
+      "साथ",
+      "भाई",
+      "बहन",
+      "दोस्त"
+    ],
+    "confidence_weight": 0.82
+  },
+  "AGE_ADULT": {
+    "keywords": [
+      "18 years",
+      "adult",
+      "major",
+      "grown up",
+      "18+",
+      "above 18",
+      "over 18",
+      "legal age",
+      "mature"
+    ],
+    "hinglish": [
+      "18 saal",
+      "badi umar",
+      "pyaar balig",
+      "18 plus"
+    ],
+    "hindi": [
+      "18 साल",
+      "वयस्क",
+      "बालिग",
+      "बड़ी उम्र"
+    ],
+    "confidence_weight": 0.92
+  },
+  "SEARCH_BODY": {
+    "keywords": [
+      "search",
+      "pat down",
+      "body search",
+      "frisked",
+      "touched",
+      "checked",
+      "searched without consent",
+      "private parts"
+    ],
+    "hinglish": [
+      "search",
+      "talaashi",
+      "sharir par hath",
+      "chot",
+      "puchhla"
+    ],
+    "hindi": [
+      "तलाशी",
+      "शरीर की तलाशी",
+      "छुआ",
+      "खोज"
+    ],
+    "confidence_weight": 0.9
+  },
+  "THREAT_INTIMIDATION": {
+    "keywords": [
+      "threat",
+      "threatened",
+      "fear",
+      "scared",
+      "danger",
+      "will harm",
+      "violence",
+      "beating",
+      "maarunga",
+      "pakdunga",
+      "intimidate"
+    ],
+    "hinglish": [
+      "dhamekan",
+      "dhamki",
+      "dar",
+      "maarunga",
+      "pakdunga",
+      "marenge"
+    ],
+    "hindi": [
+      "धमकी",
+      "डर",
+      "मारूंगा",
+      "पकड़ूंगा",
+      "भय"
+    ],
+    "confidence_weight": 0.87
+  },
+  "CUSTODY_QUESTIONING": {
+    "keywords": [
+      "questioned",
+      "interrogated",
+      "inquiry",
+      "asked questions",
+      "station",
+      "puchha ja raha",
+      "pooch rahe the",
+      "questioning"
+    ],
+    "hinglish": [
+      "sawal kiye ja rahe",
+      "inquiri",
+      "thane mein",
+      "pooch rahe"
+    ],
+    "hindi": [
+      "पूछताछ",
+      "सवाल",
+      "जांच",
+      "पूछा जा रहा"
+    ],
+    "confidence_weight": 0.85
+  },
+  "NO_OFFENSE": {
+    "keywords": [
+      "did nothing",
+      "no crime",
+      "innocent",
+      "didn't do",
+      "not guilty",
+      "no fault",
+      "no reason",
+      "no offense",
+      "kuch nahi kiya"
+    ],
+    "hinglish": [
+      "kuch nahi kiya",
+      "apradh nahi",
+      "innocent hain",
+      "koi galti nahi"
+    ],
+    "hindi": [
+      "कुछ नहीं किया",
+      "अपराध नहीं",
+      "निर्दोष",
+      "कोई दोष नहीं"
+    ],
+    "confidence_weight": 0.88
+  },
+  "PRIVACY_VIOLATION": {
+    "keywords": [
+      "privacy",
+      "private",
+      "personal",
+      "intimate",
+      "dignity",
+      "respect",
+      "modesty",
+      "undressed",
+      "exposed",
+      "photographed"
+    ],
+    "hinglish": [
+      "nijta",
+      "akele mein",
+      "niyat shakal",
+      "photo",
+      "video"
+    ],
+    "hindi": [
+      "निजता",
+      "व्यक्तिगत",
+      "तस्वीर",
+      "वीडियो"
+    ],
+    "confidence_weight": 0.89
+  },
+  "DOCUMENT_REQUEST": {
+    "keywords": [
+      "id card",
+      "aadhar",
+      "license",
+      "passport",
+      "document",
+      "identification",
+      "prove who you are",
+      "papers"
+    ],
+    "hinglish": [
+      "id",
+      "aadhar",
+      "license",
+      "papers",
+      "pehchan",
+      "document"
+    ],
+    "hindi": [
+      "पहचान पत्र",
+      "आधार",
+      "दस्तावेज़",
+      "पेपर"
+    ],
+    "confidence_weight": 0.86
+  },
+  "CYBER_THREAT": {
+    "keywords": [
+      "online",
+      "internet",
+      "account",
+      "password",
+      "hack",
+      "fraud",
+      "scam",
+      "phishing",
+      "malware",
+      "virus",
+      "email",
+      "message",
+      "whatsapp",
+      "social media",
+      "fake profile"
+    ],
+    "hinglish": [
+      "online scam",
+      "hack",
+      "fraud",
+      "jhooth account",
+      "fake"
+    ],
+    "hindi": [
+      "ऑनलाइन धोखाधड़ी",
+      "हैक",
+      "जालसाज़ी",
+      "नकली"
+    ],
+    "confidence_weight": 0.84
+  },
+  "WEAPON": {
+    "keywords": [
+      "gun",
+      "knife",
+      "weapon",
+      "arm",
+      "lethal",
+      "dangerous",
+      "pistol",
+      "revolver",
+      "lathi",
+      "stick",
+      "baton"
+    ],
+    "hinglish": [
+      "bandook",
+      "talwar",
+      "hathiyaar",
+      "lathi",
+      "goli"
+    ],
+    "hindi": [
+      "बंदूक",
+      "तलवार",
+      "हथियार",
+      "लाठी"
+    ],
+    "confidence_weight": 0.93
+  },
+  "WARRANT": {
+    "keywords": [
+      "warrant",
+      "search warrant",
+      "arrest warrant",
+      "court order",
+      "legal authority",
+      "signed",
+      "judge",
+      "magistrate"
+    ],
+    "hinglish": [
+      "warrant",
+      "court ka order",
+      "judge",
+      "magistrate"
+    ],
+    "hindi": [
+      "वारंट",
+      "अदालत का आदेश",
+      "न्यायाधीश"
+    ],
+    "confidence_weight": 0.91
+  }
+}
