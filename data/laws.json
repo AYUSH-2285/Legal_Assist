@@ -1,386 +1,44 @@
-{
-  "ART_19_1_D": {
-    "id": "ART_19_1_D",
+[
+  {
+    "id": "LAW_001",
     "type": "Constitution",
     "section": "Article 19(1)(d)",
     "title": "Freedom of Movement",
-    "explanation": "All citizens have the right to move freely throughout the territory of India. This means you have the right to travel, walk, and move in public spaces without unreasonable restriction.",
-    "key_points": [
-      "Applies to all Indian citizens",
-      "Protects movement in public spaces",
-      "Police cannot restrict without legal grounds",
-      "Exceptions: Public safety, national security"
-    ],
-    "what_you_can_ask": [
-      "Under which law are you stopping me?",
-      "Do you have a warrant or court order?",
-      "What is the legal basis for this restriction?",
-      "Am I free to leave?"
-    ],
-    "punishment_if_violated": "Not criminal, but police action may be challenged in court as unconstitutional",
-    "references": [
-      "Article 19(1)(d), Constitution of India",
-      "Supreme Court: Malik v. State AIR 1954"
-    ]
+    "explanation": "Citizens have the right to move freely throughout the territory of India."
   },
-  "ART_21": {
-    "id": "ART_21",
-    "type": "Constitution",
-    "section": "Article 21",
-    "title": "Protection of Life and Personal Liberty",
-    "explanation": "No person shall be deprived of their life or personal liberty except according to procedure established by law. This is a fundamental right protecting dignity, freedom, and bodily integrity.",
-    "key_points": [
-      "Protects bodily integrity and dignity",
-      "Covers unlawful search, arrest, detention",
-      "Protects against harassment and humiliation",
-      "Applies equally to all persons"
-    ],
-    "what_you_can_ask": [
-      "Why am I being detained?",
-      "Do you have authority to search me?",
-      "What is the legal procedure being followed?",
-      "I want to speak to a lawyer"
-    ],
-    "punishment_if_violated": "May be challenged as violation of fundamental right; compensation possible",
-    "references": [
-      "Article 21, Constitution of India",
-      "Supreme Court: Maneka Gandhi v. Union of India"
-    ]
-  },
-  "IPC_341": {
-    "id": "IPC_341",
-    "type": "Indian Penal Code",
+  {
+    "id": "LAW_002",
+    "type": "IPC",
     "section": "Section 341",
     "title": "Wrongful Restraint",
-    "explanation": "Wrongful restraint is when a person prevents another from moving in any direction without legal authority. This includes blocking movement, holding, or detaining without lawful reason.",
-    "key_points": [
-      "Applies when restraint has no legal basis",
-      "Police must have warrant or reasonable suspicion",
-      "Mere questioning doesn't constitute restraint",
-      "Consent matters – agreed stop is not restraint"
-    ],
-    "what_you_can_ask": [
-      "On what suspicion are you restraining me?",
-      "Do you have a warrant?",
-      "Am I free to leave?",
-      "What law are you invoking?"
-    ],
-    "punishment_if_violated": "Up to 1 month imprisonment or Rs 250 fine or both",
-    "references": [
-      "IPC Section 341",
-      "Supreme Court: Sube Singh v. State of Punjab AIR 1989"
-    ]
+    "explanation": "Voluntarily obstructing any person from proceeding in any direction they have a right to proceed."
   },
-  "IPC_342": {
-    "id": "IPC_342",
-    "type": "Indian Penal Code",
-    "section": "Section 342",
-    "title": "Wrongful Confinement",
-    "explanation": "Wrongful confinement is wrongful restraint in an enclosed space (like a room, vehicle, station) that prevents escape. It's a more serious form of unlawful detention.",
-    "key_points": [
-      "Occurs in enclosed/confined spaces",
-      "Person cannot move or escape",
-      "Requires deliberate confinement without legal basis",
-      "More severe than simple restraint"
-    ],
-    "what_you_can_ask": [
-      "On what authority am I being confined?",
-      "What is the legal procedure?",
-      "Can I contact my family or lawyer?",
-      "How long will I be held?"
-    ],
-    "punishment_if_violated": "Up to 3 months imprisonment or Rs 500 fine or both",
-    "references": [
-      "IPC Section 342",
-      "Supreme Court: Lalita Kumari v. Government of UP"
-    ]
+  {
+    "id": "LAW_003",
+    "type": "CrPC",
+    "section": "Section 41",
+    "title": "Arrest Conditions",
+    "explanation": "Police cannot arrest without a warrant for certain offenses unless specific conditions are met."
   },
-  "IPC_354": {
-    "id": "IPC_354",
-    "type": "Indian Penal Code",
-    "section": "Section 354",
-    "title": "Assault or Criminal Force to Woman with Intent to Outrage Modesty",
-    "explanation": "Using force or threatening to use force against a woman with intent to outrage modesty. Includes unwanted touching, pulling, grabbing that violates dignity or modesty.",
-    "key_points": [
-      "Applies to any unwanted touching that violates modesty",
-      "Includes indecent exposure or gestures",
-      "Can be committed by anyone, including police",
-      "Victim's perception of violation is important"
-    ],
-    "what_you_can_ask": [
-      "Do you have authority for body search?",
-      "Why are you touching me?",
-      "I don't consent to this search",
-      "This violates my dignity and modesty"
-    ],
-    "punishment_if_violated": "Up to 3 years imprisonment and/or Rs 2000 fine; if by public servant: up to 2 years more",
-    "references": [
-      "IPC Section 354",
-      "Supreme Court: Sakshi v. Union of India AIR 2004"
-    ]
+  {
+    "id": "LAW_004",
+    "type": "Constitution",
+    "section": "Article 21",
+    "title": "Protection of Life and Liberty",
+    "explanation": "No person shall be deprived of his life or personal liberty except according to procedure established by law."
   },
-  "IPC_504": {
-    "id": "IPC_504",
-    "type": "Indian Penal Code",
-    "section": "Section 504",
-    "title": "Intentional Insult with Knowledge of Causing Breach of Peace",
-    "explanation": "Uttering words or making gestures with intent to insult or knowing it will provoke breach of peace. Includes disrespect, abusive language, humiliation.",
-    "key_points": [
-      "Applies to intentional insults",
-      "Includes verbal abuse, bad language",
-      "Must have intent or knowledge of provocation",
-      "Applies to police misconduct too"
-    ],
-    "what_you_can_ask": [
-      "I am being insulted and humiliated",
-      "This language is disrespectful",
-      "I want your name and badge number",
-      "I will file a complaint"
-    ],
-    "punishment_if_violated": "Up to 3 months imprisonment or Rs 250 fine or both",
-    "references": [
-      "IPC Section 504",
-      "Supreme Court: Sharma v. State AIR 1995"
-    ]
+  {
+    "id": "LAW_005",
+    "type": "Constitution",
+    "section": "Article 20(3)",
+    "title": "Right Against Self-Incrimination",
+    "explanation": "No accused person shall be compelled to be a witness against themselves."
   },
-  "IPC_506": {
-    "id": "IPC_506",
-    "type": "Indian Penal Code",
+  {
+    "id": "LAW_006",
+    "type": "IPC",
     "section": "Section 506",
     "title": "Criminal Intimidation",
-    "explanation": "Making threats of injury to person, property, reputation with intent to cause fear or to compel a person to do something. Includes threats of arrest, violence, harm.",
-    "key_points": [
-      "Threat must be credible and serious",
-      "Intent to cause fear or coerce is required",
-      "Includes threats of arrest without cause",
-      "Can be verbal or written"
-    ],
-    "what_you_can_ask": [
-      "That is a threat. I don't appreciate it",
-      "I will record this threat",
-      "I want your name and badge number",
-      "I will file a complaint for intimidation"
-    ],
-    "punishment_if_violated": "Up to 2 years imprisonment or Rs 1000 fine or both; 7 years if threat is by letter/object",
-    "references": [
-      "IPC Section 506",
-      "Supreme Court: Pradeep Kumar v. State of Bihar"
-    ]
-  },
-  "IPC_509": {
-    "id": "IPC_509",
-    "type": "Indian Penal Code",
-    "section": "Section 509",
-    "title": "Word, Gesture, Act Intended to Insult Modesty of Woman",
-    "explanation": "Using words, gestures, or acts to insult modesty of a woman. Includes unwanted attention, leering, offensive questions about personal life.",
-    "key_points": [
-      "Applies to conduct that violates modesty",
-      "Includes inappropriate questions about relationships",
-      "No physical contact needed",
-      "Victim's perspective is important"
-    ],
-    "what_you_can_ask": [
-      "That question is inappropriate and violates my modesty",
-      "My personal relationships are not your concern",
-      "This is harassment",
-      "I want to file a complaint"
-    ],
-    "punishment_if_violated": "Up to 3 months imprisonment or Rs 200 fine or both",
-    "references": [
-      "IPC Section 509",
-      "Supreme Court: Vishakha v. State of Rajasthan"
-    ]
-  },
-  "IPC_420": {
-    "id": "IPC_420",
-    "type": "Indian Penal Code",
-    "section": "Section 420",
-    "title": "Cheating",
-    "explanation": "Cheating is deceiving a person to induce them to deliver property or risk it. Includes fraud, false promises, deceptive practices for personal gain.",
-    "key_points": [
-      "Involves deception with dishonest intent",
-      "Person must suffer loss or risk of loss",
-      "Includes online fraud, fake schemes",
-      "Requires proof of dishonest intent"
-    ],
-    "what_you_can_ask": [
-      "I want to file complaint for cheating",
-      "Can you help me recover my money?",
-      "What evidence do I need?",
-      "How long does investigation take?"
-    ],
-    "punishment_if_violated": "Up to 7 years imprisonment and/or fine up to Rs 1000",
-    "references": [
-      "IPC Section 420",
-      "Supreme Court: Ajay Mandal v. State of Maharashtra"
-    ]
-  },
-  "CRPC_41": {
-    "id": "CRPC_41",
-    "type": "Code of Criminal Procedure",
-    "section": "Section 41",
-    "title": "When Police Can Arrest Without Warrant",
-    "explanation": "Police can arrest without warrant only in specific circumstances: serious offense, flight risk, evidence tampering, or obstruction of justice. Mere suspicion is not enough.",
-    "key_points": [
-      "Police need warrant for most arrests",
-      "Without warrant: only for serious crimes",
-      "Police must give reason for arrest",
-      "You have right to know charges"
-    ],
-    "what_you_can_ask": [
-      "On what charge are you arresting me?",
-      "Where is your warrant?",
-      "What is the legal basis for this arrest?",
-      "I want to call a lawyer"
-    ],
-    "punishment_if_violated": "Illegal arrest can be challenged; person may claim damages",
-    "references": [
-      "CrPC Section 41",
-      "Supreme Court: Joginder Kumar v. State of UP AIR 1994"
-    ]
-  },
-  "CRPC_50": {
-    "id": "CRPC_50",
-    "type": "Code of Criminal Procedure",
-    "section": "Section 50",
-    "title": "Person Arrested to be Informed of Grounds of Arrest and Right to Legal Counsel",
-    "explanation": "When arrested, you must be informed of: (1) the grounds of arrest, (2) right to legal counsel, (3) right to inform a relative. This is a fundamental procedural right.",
-    "key_points": [
-      "Must be told why you are arrested",
-      "Right to inform family/friend",
-      "Right to contact a lawyer",
-      "Information must be given promptly"
-    ],
-    "what_you_can_ask": [
-      "Tell me why I am being arrested",
-      "I want to call my family",
-      "I want to contact a lawyer",
-      "Write down these rights for me"
-    ],
-    "punishment_if_violated": "Arrest may be illegal; evidence can be inadmissible",
-    "references": [
-      "CrPC Section 50",
-      "Supreme Court: Janak Raj v. State AIR 1983"
-    ]
-  },
-  "CRPC_160": {
-    "id": "CRPC_160",
-    "type": "Code of Criminal Procedure",
-    "section": "Section 160",
-    "title": "Examination of Accused by Police Officer",
-    "explanation": "Police can question a person for investigation. However: you can refuse and must be told reason; questions at police station only with permission; lawyer can be present.",
-    "key_points": [
-      "Questioning should be voluntary",
-      "You can ask why you're being questioned",
-      "You have right to refuse initially",
-      "Right to have lawyer present during formal questioning"
-    ],
-    "what_you_can_ask": [
-      "Why do you want to question me?",
-      "Am I under arrest or can I leave?",
-      "Can my lawyer be present?",
-      "What questions do you want to ask?"
-    ],
-    "punishment_if_violated": "Confessions obtained illegally may be inadmissible in court",
-    "references": [
-      "CrPC Section 160",
-      "Supreme Court: Khatri v. State of Bihar"
-    ]
-  },
-  "CRPC_165": {
-    "id": "CRPC_165",
-    "type": "Code of Criminal Procedure",
-    "section": "Section 165",
-    "title": "Police Search Without Warrant (Limited Circumstances)",
-    "explanation": "Police can search person/property only: with warrant, with consent, or in limited emergency situations. Body search requires special procedure and female officer.",
-    "key_points": [
-      "Warrant required for most searches",
-      "Consent must be voluntary and written if possible",
-      "Female officer must conduct female body search",
-      "No degrading or indecent search allowed"
-    ],
-    "what_you_can_ask": [
-      "Do you have a search warrant?",
-      "On what legal grounds are you searching?",
-      "I do not consent to this search",
-      "A female officer must conduct any body search"
-    ],
-    "punishment_if_violated": "Illegal search evidence inadmissible; compensation possible",
-    "references": [
-      "CrPC Section 165",
-      "Supreme Court: Shamla Devi v. State"
-    ]
-  },
-  "IT_ACT_66": {
-    "id": "IT_ACT_66",
-    "type": "Information Technology Act",
-    "section": "Section 66",
-    "title": "Computer Hacking",
-    "explanation": "Accessing computer system/network without authorization, or exceeding authorized access. Includes hacking accounts, stealing data, unauthorized entry.",
-    "key_points": [
-      "Covers unauthorized computer access",
-      "Includes hacking email, social media",
-      "Includes password theft, credential misuse",
-      "Can apply to both criminal and civil cases"
-    ],
-    "what_you_can_ask": [
-      "My account was hacked. How do I file complaint?",
-      "What do I need to prove hacking?",
-      "Can evidence be recovered?",
-      "What are the criminal penalties?"
-    ],
-    "punishment_if_violated": "Up to 3 years imprisonment and/or fine up to Rs 5 lakh",
-    "references": [
-      "IT Act Section 66",
-      "Supreme Court: Pushpendra Singh Chauhan v. State"
-    ]
-  },
-  "IT_ACT_66D": {
-    "id": "IT_ACT_66D",
-    "type": "Information Technology Act",
-    "section": "Section 66D",
-    "title": "Cheating by Personation Using Computer Resource",
-    "explanation": "Using computer to cheat by impersonating someone, creating fake profiles, or deceiving for money/property. Includes online fraud, fake identities, phishing scams.",
-    "key_points": [
-      "Covers fake social media profiles",
-      "Includes phishing emails and messages",
-      "Covers romance scams, investment fraud",
-      "Victim must suffer monetary loss"
-    ],
-    "what_you_can_ask": [
-      "Someone created a fake profile in my name",
-      "I lost money to an online scam",
-      "What evidence do I need to prove fraud?",
-      "How long does investigation take?"
-    ],
-    "punishment_if_violated": "Up to 3 years imprisonment and/or fine up to Rs 1 lakh",
-    "references": [
-      "IT Act Section 66D",
-      "Supreme Court cases on cyber fraud"
-    ]
-  },
-  "JJ_ACT": {
-    "id": "JJ_ACT",
-    "type": "Juvenile Justice Act",
-    "section": "Juvenile Justice (Care and Protection of Children) Act, 2015",
-    "title": "Protection of Minors During Police Custody",
-    "explanation": "Children (under 18) have special protections: police must inform parents immediately, no third-degree, specialized procedures, presence of guardian during questioning.",
-    "key_points": [
-      "Applies to all persons under 18 years",
-      "Parents must be informed immediately",
-      "Child cannot be detained for long without parents",
-      "Special child-friendly procedures required"
-    ],
-    "what_you_can_ask": [
-      "My child is detained. Where is my child?",
-      "Who authorized this detention?",
-      "Can I take my child home?",
-      "Can I be present during questioning?"
-    ],
-    "punishment_if_violated": "Police action illegal; child must be released immediately; compensation possible",
-    "references": [
-      "Juvenile Justice Act 2015",
-      "NHRC Guidelines on Child Rights"
-    ]
+    "explanation": "Whoever threatens another with injury to their person, reputation, or property."
   }
-}
+]
